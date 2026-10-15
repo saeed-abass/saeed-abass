@@ -25,7 +25,7 @@
 <!-- FRAUD-DESK:START -->
 **Case #1** has just landed on the desk. Fraud or genuine? Make the call:
 
-| 🏪 Merchant | 💷 Amount | 🕒 Time | 🌍 Country | 📱 Device | 🔁 Attempts (2 min) | 🛒 Channel |
+| 🏪 Merchant | Amount | Time | Country | Device | 🔁 Attempts (2 min) | Channel |
 |---|--:|:-:|:-:|---|:-:|---|
 | Amazon UK | £1,979.29 | 22:06 | AE | known device | 5 | online |
 
@@ -57,8 +57,6 @@
 ### `>_ code mode`
 
 ```python
-from bradford import Engineer
-
 saeed = Engineer(
     name       = "Saeed Mohammed Abass",
     role       = "Software Engineer",
@@ -89,9 +87,7 @@ saeed.work_mode()
 
 ---
 
-### 🕹️ Choose your class
-
-Hiring? Pick the role you're hiring for and I'll show you the projects that matter most.
+###  Choose your class
 
 <details>
 <summary><b>🤖 ML / AI Engineer</b></summary>
@@ -156,7 +152,7 @@ Hiring? Pick the role you're hiring for and I'll show you the projects that matt
 
 ### 🏆 Achievements unlocked
 
-`🎓 MSc Applied CS & AI` `⚙️ A README that plays back` `🧪 11 deep learning models benchmarked in one dissertation` `🗺️ 1 city → 43,903 grid cells` `🔍 PR-AUC over accuracy` `🔐 PBKDF2, not plain-text passwords` `📱 Shipped an Android app` `💼 Commercial full-stack experience`
+`MSc Applied CS & AI` `11 deep learning models benchmarked in one dissertation` `1 city → 43,903 grid cells` `PR-AUC over accuracy` `💼 Commercial full-stack experience`
 
 ---
 
