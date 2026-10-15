@@ -1,0 +1,62 @@
+name: Fraud Desk
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: fraud-desk
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'fraud-desk|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect open moves
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search "fraud-desk in:title" --limit 100 \
+            --json number,title,author,createdAt > issues.json
+          echo "open move issues: $(python -c 'import json;print(len(json.load(open("issues.json"))))')"
+
+      - name: Score moves and render board
+        run: python -m fraud_desk play --issues issues.json --out outcomes
+
+      - name: Commit board
+        run: |
+          git config user.name "fraud-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md fraud_desk/state.json
+          if git diff --cached --quiet; then
+            echo "board unchanged"
+          else
+            git commit -m "Fraud Desk: board update"
+            git push
+          fi
+
+      - name: Reply and close issues
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          while read -r n; do
+            [ -z "$n" ] && continue
+            gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body-file "outcomes/$n.md"
+            gh issue close "$n" --repo "$GITHUB_REPOSITORY"
+          done < outcomes/close.txt
