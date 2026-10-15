@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" role="img" aria-label="Terminal introducing Saeed Mohammed Abass: software engineer, MSc Applied CS and AI, open to ML, data and software engineering roles">
+<style>
+    text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;font-size:15px;white-space:pre}
+    .fg{fill:#1f2328} .dim{fill:#59636e} .ok{fill:#1a7f37;font-weight:600} .p{fill:#1a7f37;font-weight:700}
+    .ttl{fill:#59636e;font-size:13px}
+    .cur{fill:#1f2328;animation:blink 1s step-end infinite}
+    @keyframes show{to{opacity:1}} @keyframes fade{to{opacity:1}} @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion: reduce){*{animation-duration:0s!important;animation-delay:0s!important}}
+    .l0{opacity:0;animation:show 0s 0.40s forwards}
+.r0{animation:type0 0.50s steps(6) 0.40s forwards}@keyframes type0{to{width:69px}}
+.l1{opacity:0;animation:fade .35s 1.25s forwards}
+.l2{opacity:0;animation:show 0s 2.00s forwards}
+.r2{animation:type2 0.58s steps(13) 2.00s forwards}@keyframes type2{to{width:144px}}
+.l3{opacity:0;animation:fade .35s 2.94s forwards}
+.l4{opacity:0;animation:show 0s 3.69s forwards}
+.r4{animation:type4 0.54s steps(12) 3.69s forwards}@keyframes type4{to{width:133px}}
+.l5{opacity:0;animation:fade .35s 4.58s forwards}
+.l6{opacity:0;animation:fade .35s 4.73s forwards}
+.l7{opacity:0;animation:show 0s 5.33s forwards}
+.r7{animation:type7 1.80s steps(40) 5.33s forwards}@keyframes type7{to{width:432px}}
+.l8{opacity:0;animation:fade .35s 7.48s forwards}
+.l9{opacity:0;animation:show 0s 8.23s forwards}
+.r9{animation:type9 2.52s steps(56) 8.23s forwards}@keyframes type9{to{width:603px}}
+.end{opacity:0;animation:show 0s 11.10s forwards}</style>
+<rect x="0.5" y="0.5" width="859" height="339" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<path d="M0.5 10.5a10 10 0 0 1 10-10h839a10 10 0 0 1 10 10V34H0.5z" fill="#f6f8fa"/>
+<line x1="0.5" y1="34" x2="859.5" y2="34" stroke="#d0d7de"/>
+<circle cx="20" cy="17" r="6" fill="#ff5f57"/><circle cx="40" cy="17" r="6" fill="#febc2e"/><circle cx="60" cy="17" r="6" fill="#28c840"/>
+<text x="430.0" y="22" text-anchor="middle" class="ttl">saeed@bradford: ~</text>
+<g class="l0"><text x="24" y="68" class="p">$</text><clipPath id="c0"><rect class="r0" x="42.1" y="53" width="0" height="24"/></clipPath><text x="42.1" y="68" clip-path="url(#c0)" class="fg">whoami</text></g>
+<text x="24" y="92" class="fg l1">Saeed Mohammed Abass  ·  software engineer  ·  MSc Applied CS &amp; AI (Bradford)</text>
+<g class="l2"><text x="24" y="116" class="p">$</text><clipPath id="c2"><rect class="r2" x="42.1" y="101" width="0" height="24"/></clipPath><text x="42.1" y="116" clip-path="url(#c2)" class="fg">cat focus.txt</text></g>
+<text x="24" y="140" class="fg l3">machine learning · computer vision · data engineering · full-stack web</text>
+<g class="l4"><text x="24" y="164" class="p">$</text><clipPath id="c4"><rect class="r4" x="42.1" y="149" width="0" height="24"/></clipPath><text x="42.1" y="164" clip-path="url(#c4)" class="fg">ls projects/</text></g>
+<text x="24" y="188" class="dim l5">artefact-detection/   road-risk-scoring/   fraud-detection-mlflow/</text>
+<text x="24" y="212" class="dim l6">plant-disease/   microneedle-qc/   keratoconus-ai/   wy-crime-app/</text>
+<g class="l7"><text x="24" y="236" class="p">$</text><clipPath id="c7"><rect class="r7" x="42.1" y="221" width="0" height="24"/></clipPath><text x="42.1" y="236" clip-path="url(#c7)" class="fg">python -c &quot;import saeed; saeed.status()&quot;</text></g>
+<text x="24" y="260" class="ok l8">&gt;&gt; open to ML/AI, data and software engineering roles in the UK</text>
+<g class="l9"><text x="24" y="284" class="p">$</text><clipPath id="c9"><rect class="r9" x="42.1" y="269" width="0" height="24"/></clipPath><text x="42.1" y="284" clip-path="url(#c9)" class="fg">play --game fraud-hunt   # try it: saeed-abass.github.io</text></g>
+<g class="end"><text x="24" y="308" class="p">$</text><rect class="cur" x="42.1" y="295" width="9" height="17" /></g>
+</svg>

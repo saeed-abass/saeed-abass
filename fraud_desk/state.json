@@ -1,0 +1,20 @@
+{
+ "seed": 1,
+ "index": 0,
+ "case_no": 1,
+ "community": {
+  "tp": 0,
+  "fp": 0,
+  "fn": 0,
+  "tn": 0
+ },
+ "model": {
+  "tp": 0,
+  "fp": 0,
+  "fn": 0,
+  "tn": 0
+ },
+ "players": {},
+ "recent": [],
+ "processed_issues": []
+}

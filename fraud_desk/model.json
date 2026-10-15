@@ -1,0 +1,51 @@
+{
+  "features": [
+    "log_amount",
+    "night",
+    "abroad",
+    "log_attempts",
+    "new_device",
+    "risky_merchant",
+    "online"
+  ],
+  "weights": [
+    1.63891,
+    1.621855,
+    1.650022,
+    5.027507,
+    1.631118,
+    4.449619,
+    2.449876
+  ],
+  "bias": -2.557893,
+  "mean": [
+    3.893514,
+    0.186222,
+    0.187,
+    0.183406,
+    0.186667,
+    0.101444,
+    0.810444
+  ],
+  "scale": [
+    1.892569,
+    0.389286,
+    0.389912,
+    0.543266,
+    0.389644,
+    0.301916,
+    0.391949
+  ],
+  "threshold": 0.91,
+  "meta": {
+    "algorithm": "logistic regression (class-weighted)",
+    "trained_on": "30000 synthetic transactions, seed 7",
+    "test_metrics": {
+      "precision": 0.995,
+      "recall": 0.824,
+      "f1": 0.901,
+      "pr_auc": 0.976,
+      "test_size": 6000
+    }
+  }
+}
