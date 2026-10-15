@@ -1,18 +1,18 @@
 {
  "seed": 1,
- "index": 1,
- "case_no": 2,
+ "index": 2,
+ "case_no": 3,
  "community": {
   "tp": 1,
   "fp": 0,
   "fn": 0,
-  "tn": 0
+  "tn": 1
  },
  "model": {
   "tp": 1,
   "fp": 0,
   "fn": 0,
-  "tn": 0
+  "tn": 1
  },
  "players": {
   "saeed-abass": {
@@ -20,13 +20,22 @@
     "tp": 1,
     "fp": 0,
     "fn": 0,
-    "tn": 0
+    "tn": 1
    },
-   "streak": 1,
-   "best_streak": 1
+   "streak": 2,
+   "best_streak": 2
   }
  },
  "recent": [
+  {
+   "case": 2,
+   "login": "saeed-abass",
+   "verdict": "\u2705 passed",
+   "truth": "genuine",
+   "correct": true,
+   "model_correct": true,
+   "at": "15 Oct 13:07 UTC"
+  },
   {
    "case": 1,
    "login": "saeed-abass",
@@ -38,6 +47,7 @@
   }
  ],
  "processed_issues": [
-  1
+  1,
+  2
  ]
 }

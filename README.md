@@ -23,19 +23,19 @@
 ### 🕵️ Fraud Desk: you vs my model
 
 <!-- FRAUD-DESK:START -->
-**Case #2** has just landed on the desk. Fraud or genuine? Make the call:
+**Case #3** has just landed on the desk. Fraud or genuine? Make the call:
 
 | 🏪 Merchant | 💷 Amount | 🕒 Time | 🌍 Country | 📱 Device | 🔁 Attempts (2 min) | 🛒 Channel |
 |---|--:|:-:|:-:|---|:-:|---|
-| Morrisons | £1,864.67 | 15:51 | UK | new device | 1 | online |
+| CryptoXpress | £1,592.89 | 19:27 | AE | known device | 1 | online |
 
-<p align="center"><a href="https://github.com/saeed-abass/saeed-abass/issues/new?title=fraud-desk%7Cflag%7C2&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20Submit%20new%20issue%29.%20A%20GitHub%20Action%20will%20check%20your%20answer%2C%20reply%20here%20within%20about%20a%20minute%2C%20close%20this%20issue%20and%20update%20the%20board%20on%20my%20profile."><b>🚩 FLAG AS FRAUD</b></a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://github.com/saeed-abass/saeed-abass/issues/new?title=fraud-desk%7Cpass%7C2&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20Submit%20new%20issue%29.%20A%20GitHub%20Action%20will%20check%20your%20answer%2C%20reply%20here%20within%20about%20a%20minute%2C%20close%20this%20issue%20and%20update%20the%20board%20on%20my%20profile."><b>✅ LET IT THROUGH</b></a></p>
+<p align="center"><a href="https://github.com/saeed-abass/saeed-abass/issues/new?title=fraud-desk%7Cflag%7C3&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20Submit%20new%20issue%29.%20A%20GitHub%20Action%20will%20check%20your%20answer%2C%20reply%20here%20within%20about%20a%20minute%2C%20close%20this%20issue%20and%20update%20the%20board%20on%20my%20profile."><b>🚩 FLAG AS FRAUD</b></a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://github.com/saeed-abass/saeed-abass/issues/new?title=fraud-desk%7Cpass%7C3&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20Submit%20new%20issue%29.%20A%20GitHub%20Action%20will%20check%20your%20answer%2C%20reply%20here%20within%20about%20a%20minute%2C%20close%20this%20issue%20and%20update%20the%20board%20on%20my%20profile."><b>✅ LET IT THROUGH</b></a></p>
 
 <sub>Clicking opens a pre-filled GitHub issue: press <b>Create</b>. A GitHub Actions workflow checks your call, scores my model on the same case, replies on the issue and updates this board within about a minute.</sub>
 
 | | 👥 Everyone so far | 🤖 My model, same cases |
 |---|:-:|:-:|
-| Cases decided | 1 | 1 |
+| Cases decided | 2 | 2 |
 | Precision | 100% | 100% |
 | Recall | 100% | 100% |
 | F1 | **1.00** | **1.00** |
@@ -44,10 +44,11 @@
 
 | # | Detective | Cases | Correct | Best streak |
 |:-:|---|:-:|:-:|:-:|
-| 🥇 | @saeed-abass | 1 | 100% | 1 |
+| 🥇 | @saeed-abass | 2 | 100% | 2 |
 
 | Case | Player | Call | Truth | Model |
 |:-:|---|---|---|:-:|
+| #2 | @saeed-abass | ✅ passed ✔️ | genuine | ✔️ |
 | #1 | @saeed-abass | 🚩 flagged ✔️ | fraud | ✔️ |
 
 </details>
