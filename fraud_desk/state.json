@@ -1,20 +1,43 @@
 {
  "seed": 1,
- "index": 0,
- "case_no": 1,
+ "index": 1,
+ "case_no": 2,
  "community": {
-  "tp": 0,
+  "tp": 1,
   "fp": 0,
   "fn": 0,
   "tn": 0
  },
  "model": {
-  "tp": 0,
+  "tp": 1,
   "fp": 0,
   "fn": 0,
   "tn": 0
  },
- "players": {},
- "recent": [],
- "processed_issues": []
+ "players": {
+  "saeed-abass": {
+   "cm": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "streak": 1,
+   "best_streak": 1
+  }
+ },
+ "recent": [
+  {
+   "case": 1,
+   "login": "saeed-abass",
+   "verdict": "\ud83d\udea9 flagged",
+   "truth": "fraud",
+   "correct": true,
+   "model_correct": true,
+   "at": "15 Oct 13:04 UTC"
+  }
+ ],
+ "processed_issues": [
+  1
+ ]
 }
